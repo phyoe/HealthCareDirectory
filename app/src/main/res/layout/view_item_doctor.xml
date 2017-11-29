@@ -23,7 +23,7 @@
             android:elevation="4dp"
             android:src="@drawable/dummy_doctor" />
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_name"
             style="@style/ListViewItem"
             android:layout_width="wrap_content"

@@ -18,7 +18,7 @@
             android:paddingTop="@dimen/margin_medium"
             android:src="@drawable/ic_healthcare_launcher_icon" />
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_title"
             style="@style/PrimaryTitle"
             android:layout_width="wrap_content"
@@ -29,7 +29,7 @@
             android:paddingTop="@dimen/margin_medium"
             android:text="@string/dialog_about_us_title" />
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_message"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             android:paddingTop="@dimen/margin_large"
             android:text="@string/dialog_about_us_messge" />
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_version"
             style="@style/SecondaryTitle"
             android:layout_width="fill_parent"
@@ -54,7 +54,7 @@
             android:paddingRight="@dimen/margin_medium"
             android:text="@string/dummy_version" />
 
-        <com.padc.healthcaredirectory.components.MMButton
+        <com.pkz.healthcaredirectory.components.MMButton
             android:id="@+id/dialogButtonClose"
             style="@style/HealthCareCardButton"
             android:layout_width="wrap_content"

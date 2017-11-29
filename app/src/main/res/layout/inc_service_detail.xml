@@ -5,14 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.padc.healthcaredirectory.activities.HospitalDetailActivity">
+    tools:context="com.pkz.healthcaredirectory.com.pkz.healthcaredirectory.activities.HospitalDetailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/margin_medium"
         android:orientation="vertical"
-        tools:context="com.padc.healthcaredirectory.activities.HospitalDetailActivity">
+        tools:context="com.pkz.healthcaredirectory.com.pkz.healthcaredirectory.activities.HospitalDetailActivity">
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <com.padc.healthcaredirectory.components.MMTextView
+                <com.pkz.healthcaredirectory.components.MMTextView
                     android:id="@+id/tv_service_name"
                     style="@style/PrimaryTitle"
                     android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                     android:padding="@dimen/margin_medium"
                     android:text="@string/health_care_hospital" />
 
-                <com.padc.healthcaredirectory.components.MMTextView
+                <com.pkz.healthcaredirectory.components.MMTextView
                     android:id="@+id/tv_service_category"
                     style="@style/SecondaryTitle"
                     android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:padding="@dimen/margin_medium"
                     android:text="@string/health_care_hospital_category" />
 
-                <com.padc.healthcaredirectory.components.MMTextView
+                <com.pkz.healthcaredirectory.components.MMTextView
                     android:id="@+id/tv_price_category"
                     style="@style/PriceCategory"
                     android:layout_width="match_parent"
@@ -87,7 +87,7 @@
                 android:orientation="vertical">
 
                 <!-- Operation title -->
-                <com.padc.healthcaredirectory.components.MMTextView
+                <com.pkz.healthcaredirectory.components.MMTextView
                     style="@style/DetailInfoTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                     android:orientation="horizontal"
                     android:padding="@dimen/margin_small">
 
-                    <com.padc.healthcaredirectory.components.MMTextView
+                    <com.pkz.healthcaredirectory.components.MMTextView
                         android:id="@+id/tv_service_operations"
                         style="@style/ContentText"
                         android:layout_width="wrap_content"
@@ -115,7 +115,7 @@
         </android.support.v7.widget.CardView>
 
         <!--
-        <com.padc.healthcaredirectory.components.DynamicHeightImageView
+        <com.pkz.healthcaredirectory.components.DynamicHeightImageView
             android:id="@+id/img_service_map"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

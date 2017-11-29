@@ -6,7 +6,7 @@ android {
     buildToolsVersion "24.0.2"
 
     defaultConfig {
-        applicationId "com.padc.healthcaredirectory"
+        applicationId "com.pkz.healthcaredirectory"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
@@ -17,6 +17,10 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
     }
 }
 

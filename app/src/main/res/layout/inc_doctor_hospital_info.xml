@@ -5,7 +5,7 @@
     android:orientation="vertical">
 
     <!-- title -->
-    <com.padc.healthcaredirectory.components.MMTextView
+    <com.pkz.healthcaredirectory.components.MMTextView
         style="@style/DetailInfoTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +27,7 @@
             android:src="@drawable/ic_clinic_gray_24dp"
             android:tint="@color/black_overlay" />
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_doctor_hospital_name"
             style="@style/ContentText"
             android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
             android:src="@drawable/ic_timetable_24dp"
             android:tint="@color/black_overlay" />
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_doctor_hospital_timetable"
             style="@style/ContentText"
             android:layout_width="wrap_content"

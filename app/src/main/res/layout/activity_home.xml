@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context=".activities.HomeActivity">
+        tools:context="com.pkz.healthcaredirectory.activities.HomeActivity">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                 android:background="?attr/colorPrimary"
                 app:popupTheme="@style/AppTheme.PopupOverlay">
 
-                <com.padc.healthcaredirectory.components.MMTextView
+                <com.pkz.healthcaredirectory.components.MMTextView
                     android:id="@+id/tv_screen_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -66,7 +66,7 @@
         app:itemTextColor="@drawable/state_left_menu_item"
         app:menu="@menu/left_menu">
 
-        <com.padc.healthcaredirectory.components.MMTextView
+        <com.pkz.healthcaredirectory.components.MMTextView
             android:id="@+id/tv_app_version"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
